@@ -1,0 +1,44 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+target
+
+### local config files ###
+src/test/java/karate-config.js
+src/test/java/test-plan.json
+src/test/java/com/renault/ACTIVE/
+
+### xray-connector ###
+tools/xray-connector/node_modules/
+tools/xray-connector/package-lock.json
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+.DS_Store

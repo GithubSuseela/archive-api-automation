@@ -1,0 +1,11 @@
+export INFRA=$ENV
+export token_url=$TOKEN_URL
+export api_client_id=$CLIENT_ID
+export api_client_secret=$CLIENT_SECRET
+export api_url=$API_BASE_URL
+export api_client_username=$USER_LOGIN
+export api_client_password=$USER_PASSWORD
+export scope=$SCOPE
+export API_NAME=$API_NAME
+export TEST_PLAN_JIRA_KEY=$TEST_PLAN_JIRA_KEY
+export external_urls=$EXTERNAL_URLS

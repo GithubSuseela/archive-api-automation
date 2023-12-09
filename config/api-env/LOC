@@ -1,0 +1,10 @@
+export api_url=$1
+export api_client_secret=$2
+export api_client_username=$3
+export api_client_password=$4
+export INFRA=loc
+export token_url=https://re7-auth.enrichment.renault-digital.com/auth/realms/tda/protocol/openid-connect/token
+export api_client_id=tda-client
+export scope="arca openid"
+export ENV=LOC
+export external_urls=$5
